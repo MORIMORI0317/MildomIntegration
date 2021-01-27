@@ -1,0 +1,100 @@
+buildscript {
+    repositories {
+        maven { url = 'https://files.minecraftforge.net/maven' }
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:3.+'
+    }
+}
+plugins {
+    id "com.github.johnrengelman.shadow" version "4.0.4"
+}
+
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'eclipse'
+apply plugin: 'maven-publish'
+apply plugin: 'com.github.johnrengelman.shadow'
+
+
+version = '1.2'
+group = 'net.morimori.mildomintegration'
+archivesBaseName = 'mildomintegration'
+
+sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+
+minecraft {
+
+    mappings channel: 'snapshot', version: '20171003-1.12'
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+
+
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+
+            property 'forge.logging.console.level', 'debug'
+        }
+
+        server {
+
+
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+
+            property 'forge.logging.console.level', 'debug'
+        }
+    }
+}
+sourceSets {
+    main { output.resourcesDir = output.classesDir }
+}
+configurations {
+    shadow
+    compile.extendsFrom(shadow)
+}
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2854'
+    shadow group: 'org.glassfish.tyrus.bundles', name: 'tyrus-standalone-client', version: '1.15'
+}
+shadowJar {
+    classifier ''
+    project.configurations.shadow.setTransitive(true);
+    configurations = [project.configurations.shadow]
+}
+jar {
+    manifest {
+        attributes([
+                "Specification-Title"     : "mildomintegration",
+                "Specification-Vendor"    : "MORIMORI0317",
+                "Specification-Version"   : "1",
+                "Implementation-Title"    : project.name,
+                "Implementation-Version"  : "${version}",
+                "Implementation-Vendor"   : "MORIMORI0317",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+}
+
+jar.finalizedBy('reobfJar')
+
+afterEvaluate {
+    reobf {
+        shadowJar { mappings = tasks.reobfJar.mappings }
+    }
+}
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifact jar
+        }
+    }
+    repositories {
+        maven {
+            url "file:///${project.projectDir}/mcmodsrepo"
+        }
+    }
+}

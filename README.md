@@ -1,0 +1,2 @@
+# MildomIntegration
+Mildomでギフトを送るとアイテムとしてギフトをもらえるMOD

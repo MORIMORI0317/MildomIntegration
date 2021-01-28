@@ -58,7 +58,7 @@ configurations {
 }
 dependencies {
     minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2854'
-    shadow group: 'org.glassfish.tyrus.bundles', name: 'tyrus-standalone-client', version: '1.15'
+    shadow group: 'org.glassfish.tyrus.bundles', name: 'tyrus-standalone-client', version: '2.0.0'
 }
 shadowJar {
     classifier ''

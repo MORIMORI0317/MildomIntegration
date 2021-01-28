@@ -1,10 +1,10 @@
 package net.morimori.mildomintegration.mildom;
 
+import jakarta.websocket.*;
 import net.minecraftforge.common.MinecraftForge;
 import net.morimori.mildomintegration.Config;
 import net.morimori.mildomintegration.event.MildomEvent;
 
-import javax.websocket.*;
 import java.io.IOException;
 import java.net.URI;
 import java.text.SimpleDateFormat;

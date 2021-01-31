@@ -1,4 +1,4 @@
-package net.morimori.mildomintegration.mildom;
+package net.morimori.mildomintegration.mildom.gift;
 
 import net.minecraft.item.ItemStack;
 import net.morimori.mildomintegration.items.MIItems;

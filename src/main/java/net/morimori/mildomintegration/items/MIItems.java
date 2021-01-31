@@ -1,18 +1,26 @@
 package net.morimori.mildomintegration.items;
 
 import net.minecraft.item.Item;
-import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.morimori.mildomintegration.MICreativeTabs;
 import net.morimori.mildomintegration.MildomIntegration;
 
-@Mod.EventBusSubscriber(modid = MildomIntegration.MODID)
-public class MIItems {
-    public static final Item GIFT = new ItemGift().setCreativeTab(MICreativeTabs.MODTAB).setRegistryName(MildomIntegration.MODID, "gift").setUnlocalizedName("gift");
+import java.util.ArrayList;
+import java.util.List;
 
-    @SubscribeEvent
-    public static void registerItems(RegistryEvent.Register<Item> e) {
-        e.getRegistry().register(GIFT);
+public class MIItems {
+    public static List<Item> MOD_ITEMS = new ArrayList<Item>();
+
+    public static final Item GIFT = register("gift", new ItemGift(), true);
+    public static final Item GIFT2 = register("gift2", new ItemGift2());
+
+    private static Item register(String name, Item item) {
+        return register(name, item, false);
+    }
+
+    private static Item register(String name, Item item, boolean hide) {
+        Item itm = item.setRegistryName(MildomIntegration.MODID, name).setUnlocalizedName(name);
+        if (!hide)
+            itm.setCreativeTab(MICreativeTabs.MODTAB);
+        MOD_ITEMS.add(itm);
+        return itm;
     }
 }

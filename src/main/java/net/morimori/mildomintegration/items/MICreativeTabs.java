@@ -1,8 +1,9 @@
-package net.morimori.mildomintegration;
+package net.morimori.mildomintegration.items;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
-import net.morimori.mildomintegration.mildom.Gift;
+import net.morimori.mildomintegration.MildomIntegration;
+import net.morimori.mildomintegration.mildom.gift.Gift2;
 
 public class MICreativeTabs extends CreativeTabs {
 
@@ -14,6 +15,6 @@ public class MICreativeTabs extends CreativeTabs {
 
     @Override
     public ItemStack getTabIconItem() {
-        return Gift.G1192.getGiftStack();
+        return Gift2.G1192.getGiftStack();
     }
 }

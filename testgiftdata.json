@@ -1,11 +1,11 @@
 {
-  "data_version": 1.3,
+  "data_version": 1.0,
   "gifts": [
     {
       "id": 0,
       "gift_id": 0,
       "emoji_id": 807240100731027477,
-      "price": 0,
+      "price": 19,
       "image": "https://raw.githubusercontent.com/MORIMORI0317/MildomIntegration/main/src/main/resources/assets/mildomintegration/textures/items/gifts/0.png",
       "name_en_us": "Gift",
       "name_ja_jp": "ギフト"

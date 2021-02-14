@@ -1,5 +1,5 @@
 {
-  "data_version": 1.0,
+  "data_version": 1.1,
   "gifts": [
     {
       "id": 0,
@@ -14,9 +14,9 @@
       "id": 1,
       "gift_id": 1036,
       "emoji_id": 807244202232381500,
-      "price": 19,
+      "price": 9,
       "image": "https://res.mildom.com/download/file/jp/mildom/nngift/821b5264777cecafd07fd6689ae5c973.png",
-      "name_en_us": "like",
+      "name_en_us": "ライク",
       "name_ja_jp": "ライク"
     },
     {

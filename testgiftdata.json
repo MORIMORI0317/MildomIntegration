@@ -5,7 +5,7 @@
       "id": 0,
       "gift_id": 0,
       "emoji_id": 807240100731027477,
-      "price": 19,
+      "price": 0,
       "image": "https://raw.githubusercontent.com/MORIMORI0317/MildomIntegration/main/src/main/resources/assets/mildomintegration/textures/items/gifts/0.png",
       "name_en_us": "Gift",
       "name_ja_jp": "ギフト"
@@ -14,7 +14,7 @@
       "id": 1,
       "gift_id": 1036,
       "emoji_id": 807244202232381500,
-      "price": 9,
+      "price": 19,
       "image": "https://res.mildom.com/download/file/jp/mildom/nngift/821b5264777cecafd07fd6689ae5c973.png",
       "name_en_us": "like",
       "name_ja_jp": "ライク"

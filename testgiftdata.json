@@ -1,5 +1,5 @@
 {
-  "data_version": 1.0,
+  "data_version": 2.0,
   "gifts": [
     {
       "id": 0,
@@ -1431,6 +1431,15 @@
       "image": "https://res.mildom.com/download/file/jp/mildom/nngift/ef0832a468f4f3f933319bde46211d02.png",
       "name_en_us": "marshmallow",
       "name_ja_jp": "マシュマロ"
+    },
+    {
+      "id": 159,
+      "gift_id": 1247,
+      "emoji_id": 811431734955868161,
+      "price": 2222,
+      "image": "https://res.mildom.com/download/file/jp/mildom/nngift/72e5c5f31032c50e99d2525007be0b07.png",
+      "name_en_us": "Mugyu cat",
+      "name_ja_jp": "むぎゅネコ"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "data_version": 3.0,
+  "data_version": 4.0,
   "gifts": [
     {
       "id": 0,
@@ -1449,6 +1449,15 @@
       "image": "https://res.mildom.com/download/file/jp/mildom/nngift/9fb02c3062aaae4fabc4e26545a6878f.png",
       "name_en_us": "Moving beckoning cat",
       "name_ja_jp": "動く招き猫"
+    },
+    {
+      "id": 161,
+      "gift_id": 1249,
+      "emoji_id": 815055612693315613,
+      "price": 1999,
+      "image": "https://res.mildom.com/download/file/jp/mildom/nngift/56789800344592fcd193ef5ee8782ce0.png",
+      "name_en_us": "I\u0027ll give you a candy!",
+      "name_ja_jp": "アメあげる！ "
     }
   ]
 }

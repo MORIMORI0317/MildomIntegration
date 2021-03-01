@@ -1,5 +1,5 @@
 {
-  "data_version": 4.0,
+  "data_version": 5.0,
   "gifts": [
     {
       "id": 0,
@@ -1458,6 +1458,24 @@
       "image": "https://res.mildom.com/download/file/jp/mildom/nngift/56789800344592fcd193ef5ee8782ce0.png",
       "name_en_us": "I\u0027ll give you a candy!",
       "name_ja_jp": "アメあげる！ "
+    },
+    {
+      "id": 162,
+      "gift_id": 1250,
+      "emoji_id": 815780390119407666,
+      "price": 0,
+      "image": "https://res.mildom.com/download/file/jp/mildom/nngift/88ad5c0d618239df69651f433036ea9d.png",
+      "name_en_us": "Mitsuha clover",
+      "name_ja_jp": "三葉クローバー"
+    },
+    {
+      "id": 163,
+      "gift_id": 1251,
+      "emoji_id": 815780396822036543,
+      "price": 9,
+      "image": "https://res.mildom.com/download/file/jp/mildom/nngift/2b7e3d79faa44fb81e9cbd129468ea80.png",
+      "name_en_us": "Four-leaf clover",
+      "name_ja_jp": "四葉クローバー"
     }
   ]
 }

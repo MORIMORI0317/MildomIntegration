@@ -1,5 +1,5 @@
 {
-  "data_version": 5.0,
+  "data_version": 6.0,
   "gifts": [
     {
       "id": 0,
@@ -1476,6 +1476,24 @@
       "image": "https://res.mildom.com/download/file/jp/mildom/nngift/2b7e3d79faa44fb81e9cbd129468ea80.png",
       "name_en_us": "Four-leaf clover",
       "name_ja_jp": "四葉クローバー"
+    },
+    {
+      "id": 164,
+      "gift_id": 1252,
+      "emoji_id": 816142780136816642,
+      "price": 0,
+      "image": "https://res.mildom.com/download/file/jp/mildom/nngift/4e23a003ba374297c103e12cd82fe1fe.png",
+      "name_en_us": "Heart Puni",
+      "name_ja_jp": "ハートぷにっ"
+    },
+    {
+      "id": 165,
+      "gift_id": 1254,
+      "emoji_id": 816142790223986698,
+      "price": 399,
+      "image": "https://res.mildom.com/download/file/jp/mildom/nngift/36892625797dae3dc671be93669c9e10.png",
+      "name_en_us": "Heart Punipuni",
+      "name_ja_jp": "ハートぷにぷにっ"
     }
   ]
 }

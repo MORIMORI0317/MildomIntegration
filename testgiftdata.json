@@ -1,5 +1,5 @@
 {
-  "data_version": 6.0,
+  "data_version": 7.0,
   "gifts": [
     {
       "id": 0,
@@ -1494,6 +1494,15 @@
       "image": "https://res.mildom.com/download/file/jp/mildom/nngift/36892625797dae3dc671be93669c9e10.png",
       "name_en_us": "Heart Punipuni",
       "name_ja_jp": "ハートぷにぷにっ"
+    },
+    {
+      "id": 166,
+      "gift_id": 1255,
+      "emoji_id": 816867555163111434,
+      "price": 1699,
+      "image": "https://res.mildom.com/download/file/jp/mildom/nngift/9c78047991e0ae627a89886cf672d15b.png",
+      "name_en_us": "Do your best!",
+      "name_ja_jp": "がんばれ！"
     }
   ]
 }

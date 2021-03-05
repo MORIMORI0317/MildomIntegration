@@ -1,5 +1,5 @@
 {
-  "data_version": 7.0,
+  "data_version": 8.0,
   "gifts": [
     {
       "id": 0,
@@ -1503,6 +1503,15 @@
       "image": "https://res.mildom.com/download/file/jp/mildom/nngift/9c78047991e0ae627a89886cf672d15b.png",
       "name_en_us": "Do your best!",
       "name_ja_jp": "がんばれ！"
+    },
+    {
+      "id": 167,
+      "gift_id": 1256,
+      "emoji_id": 817229941316911124,
+      "price": 299,
+      "image": "https://res.mildom.com/download/file/jp/mildom/nngift/63d6c5ed4d313cd55b56a0871f8f9ae1.png",
+      "name_en_us": "test",
+      "name_ja_jp": "test"
     }
   ]
 }

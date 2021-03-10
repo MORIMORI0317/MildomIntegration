@@ -1,5 +1,5 @@
 {
-  "data_version": 8.0,
+  "data_version": 9.0,
   "gifts": [
     {
       "id": 0,
@@ -1512,6 +1512,24 @@
       "image": "https://res.mildom.com/download/file/jp/mildom/nngift/63d6c5ed4d313cd55b56a0871f8f9ae1.png",
       "name_en_us": "test",
       "name_ja_jp": "test"
+    },
+    {
+      "id": 168,
+      "gift_id": 1258,
+      "emoji_id": 819041881945276436,
+      "price": 9,
+      "image": "https://res.mildom.com/download/file/jp/mildom/nngift/fdef73858e6d5855c4d28c683565ac82.png",
+      "name_en_us": "candy",
+      "name_ja_jp": "キャンディ"
+    },
+    {
+      "id": 169,
+      "gift_id": 1257,
+      "emoji_id": 819041888417873980,
+      "price": 499,
+      "image": "https://res.mildom.com/download/file/jp/mildom/nngift/9fb02c3062aaae4fabc4e26545a6878f.png",
+      "name_en_us": "Moving beckoning cat",
+      "name_ja_jp": "動く招き猫"
     }
   ]
 }

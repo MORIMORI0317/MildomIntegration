@@ -1,5 +1,5 @@
 {
-  "data_version": 9.0,
+  "data_version": 10.0,
   "gifts": [
     {
       "id": 0,
@@ -1530,6 +1530,33 @@
       "image": "https://res.mildom.com/download/file/jp/mildom/nngift/9fb02c3062aaae4fabc4e26545a6878f.png",
       "name_en_us": "Moving beckoning cat",
       "name_ja_jp": "動く招き猫"
+    },
+    {
+      "id": 170,
+      "gift_id": 1259,
+      "emoji_id": 820129045626880010,
+      "price": 1999,
+      "image": "https://res.mildom.com/download/file/jp/mildom/nngift/a17a74389ef85be077edcd2961471d9b.png",
+      "name_en_us": "Sakura fluttering",
+      "name_ja_jp": "さくらひらひら"
+    },
+    {
+      "id": 171,
+      "gift_id": 1260,
+      "emoji_id": 820129051875475518,
+      "price": 39,
+      "image": "https://res.mildom.com/download/file/jp/mildom/nngift/1d6e26b10d6b87151af065738e4715d4.png",
+      "name_en_us": "Cherry Blossoms",
+      "name_ja_jp": "さくら"
+    },
+    {
+      "id": 172,
+      "gift_id": 1261,
+      "emoji_id": 820129058880225290,
+      "price": 9,
+      "image": "https://res.mildom.com/download/file/jp/mildom/nngift/4b52a5f61ba31c9f1353c59093f62733.png",
+      "name_en_us": "Weekend delivery party",
+      "name_ja_jp": "週末配信パーティー"
     }
   ]
 }

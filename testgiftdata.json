@@ -1,5 +1,5 @@
 {
-  "data_version": 12.0,
+  "data_version": 13.0,
   "gifts": [
     {
       "id": 0,
@@ -1629,6 +1629,15 @@
       "image": "https://res.mildom.com/download/file/jp/mildom/nngift/0fcdd82e1490b650621b1053b77180fe.png",
       "name_en_us": "God play!",
       "name_ja_jp": "神プレイ！"
+    },
+    {
+      "id": 181,
+      "gift_id": 1270,
+      "emoji_id": 823390534667337728,
+      "price": 99,
+      "image": "https://res.mildom.com/download/file/jp/mildom/nngift/6db8a12b4468ba509f7f9a3a70a4948f.png",
+      "name_en_us": "Magic Fragment [Pink]",
+      "name_ja_jp": "魔法のかけら【ピンク】"
     }
   ]
 }

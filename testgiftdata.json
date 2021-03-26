@@ -1,5 +1,5 @@
 {
-  "data_version": 14.0,
+  "data_version": 15.0,
   "gifts": [
     {
       "id": 0,
@@ -1665,6 +1665,24 @@
       "image": "https://res.mildom.com/download/file/jp/mildom/nngift/d113da4f0ee0eb9ffbf5b6783158009b.png",
       "name_en_us": "3rd place prize",
       "name_ja_jp": "3位入賞"
+    },
+    {
+      "id": 185,
+      "gift_id": 1274,
+      "emoji_id": 824840085525626920,
+      "price": 1699,
+      "image": "https://res.mildom.com/download/file/jp/mildom/nngift/a7568273ecf35556dfb4c4acdfd5ea22.png",
+      "name_en_us": "Spring-colored flower field",
+      "name_ja_jp": "春色の花畑"
+    },
+    {
+      "id": 186,
+      "gift_id": 1275,
+      "emoji_id": 824840092442951715,
+      "price": 9,
+      "image": "https://res.mildom.com/download/file/jp/mildom/nngift/c381e5317c5d194553e1608ef394f37c.png",
+      "name_en_us": "Shooting Star Operation",
+      "name_ja_jp": "流れ星大作戦"
     }
   ]
 }

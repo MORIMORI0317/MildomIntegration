@@ -1,5 +1,73 @@
 {
-  "data_version": 1.0,
+  "data_version": 2.0,
   "official_emotions": [
+    {
+      "name": "jp/mildom/nnfans/3e8c672602c10d337762a9b7e3a0feff.png",
+      "emoji_id": 826000068082663485
+    },
+    {
+      "name": "jp/mildom/nnfans/e1ef906cd89751111949ba73dd0e9a93.png",
+      "emoji_id": 826000069761040404
+    },
+    {
+      "name": "jp/mildom/nnfans/e7e11199d9dcc93f7fd7b861c53e3166.png",
+      "emoji_id": 826000070921945099
+    },
+    {
+      "name": "jp/mildom/nnfans/6c81ef264dc53fc8c7beabdc5ee41361.png",
+      "emoji_id": 826000073099051008
+    },
+    {
+      "name": "jp/mildom/nnfans/e0ba578e38344f1cfa875685332788da.png",
+      "emoji_id": 826000074542153768
+    },
+    {
+      "name": "jp/mildom/nnfans/45c60b7c25b5f65baad3db1a13c2d619.png",
+      "emoji_id": 826000075926667274
+    },
+    {
+      "name": "jp/mildom/nnfans/d73f5256151efb7b45fc54b43bb7a2e4.png",
+      "emoji_id": 826000077105135618
+    },
+    {
+      "name": "jp/mildom/nnfans/5aa7776da97bb76a871826b02a4de039.png",
+      "emoji_id": 826000079257206805
+    },
+    {
+      "name": "jp/mildom/nnfans/ec847693e2ae5c3cfa99a3b5213e594a.png",
+      "emoji_id": 826000081286332457
+    },
+    {
+      "name": "jp/mildom/nnfans/edfdd0f0ad3a4c940418be3b39bf6698.png",
+      "emoji_id": 826000082855788564
+    },
+    {
+      "name": "jp/mildom/nnfans/fbcea666e3785e4537c854618d0a9e8a.png",
+      "emoji_id": 826000084696170506
+    },
+    {
+      "name": "jp/mildom/nnfans/476cf3706758272cba1d597a24515dc7.png",
+      "emoji_id": 826000087104094228
+    },
+    {
+      "name": "jp/mildom/nnfans/2303d6664c83d80f9e173cedaadfe620.png",
+      "emoji_id": 826000088555716629
+    },
+    {
+      "name": "jp/mildom/nnfans/c61444f7050734d6f0046aca89dc00c4.png",
+      "emoji_id": 826000090333708288
+    },
+    {
+      "name": "jp/mildom/nnfans/1b97496b8cfd9fe2fbcf4ca1582cf263.png",
+      "emoji_id": 826000091922825216
+    },
+    {
+      "name": "jp/mildom/nnfans/5a781962f113de563f0c5068a0cb5b3b.png",
+      "emoji_id": 826000093902667776
+    },
+    {
+      "name": "jp/mildom/nnfans/9c91d13ca92eba44a632994a07581cb7.png",
+      "emoji_id": 826000095148507156
+    }
   ]
 }

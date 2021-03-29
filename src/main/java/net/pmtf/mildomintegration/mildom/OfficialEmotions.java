@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.stream.StreamSupport;
 
 public class OfficialEmotions {
-    public static final String OFFICIALEMOJI_DATA_URL = "https://raw.githubusercontent.com/MORIMORI0317/MildomIntegration/main/officialemoji.json";
+    public static final String OFFICIALEMOJI_DATA_URL = "https://raw.githubusercontent.com/MORIMORI0317/MildomIntegration/main/officialemojis.json";
     public static final String OFFICIALEMOJI_LIST_URL = "https://cloudac.mildom.com/nonolive/gappserv/emotion/getListV1?__platform=web&room_id=114514";
     public static final Map<String, String> OFF_EMOZIS = new HashMap<>();
 

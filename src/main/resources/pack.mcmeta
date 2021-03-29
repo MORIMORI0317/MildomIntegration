@@ -1,7 +1,7 @@
 {
     "pack": {
-        "description": "mildom resources",
+        "description": "mildomintegration resources",
         "pack_format": 3,
-        "_comment": "A MI Pack"
+        "_comment": "A MildomIntegration Pack"
     }
 }

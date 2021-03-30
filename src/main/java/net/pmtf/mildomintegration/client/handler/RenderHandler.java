@@ -58,13 +58,13 @@ public class RenderHandler {
                     String pl = "";
 
                     if (0 < ranking.getFluctuation()) {
+                        fr = I18n.format("message.viewersrankingdwon");
+                    } else if (0 > ranking.getFluctuation()) {
                         fr = I18n.format("message.viewersrankingup");
                         pl = "+";
-                    } else if (0 > ranking.getFluctuation()) {
-                        fr = I18n.format("message.viewersrankingdwon");
                     }
 
-                    String fra = I18n.format("message.viewersrankingfluctuation", pl, ranking.getFluctuation(), fr);
+                    String fra = I18n.format("message.viewersrankingfluctuation", pl, ranking.getFluctuation() * -1, fr);
 
                     vs.add(I18n.format("message.viewersranking", ranking.getSerchMax(), ranking.getRanking()) + (ranking.getFluctuation() == 0 ? "" : " " + fra));
                 } else {

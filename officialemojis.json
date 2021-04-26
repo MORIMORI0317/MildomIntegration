@@ -1,5 +1,5 @@
 {
-  "data_version": 4.0,
+  "data_version": 5.0,
   "official_emotions": [
     {
       "name": "jp/mildom/nnfans/3e8c672602c10d337762a9b7e3a0feff.png",
@@ -92,6 +92,14 @@
     {
       "name": "jp/mildom/nnfans/2021ef2ecc51e7cebfa455a42eda4c78.png",
       "emoji_id": 827739194243416096
+    },
+    {
+      "name": "jp/mildom/nnfans/abf34612bd48e473f179529800b3a6bb.png",
+      "emoji_id": 836074112367591436
+    },
+    {
+      "name": "jp/mildom/nnfans/307028afb26b32c71dd59ebf4b37322c.png",
+      "emoji_id": 836074114497118249
     }
   ]
 }

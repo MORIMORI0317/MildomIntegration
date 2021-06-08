@@ -1,5 +1,5 @@
 {
-  "data_version": 5.0,
+  "data_version": 6.0,
   "official_emotions": [
     {
       "name": "jp/mildom/nnfans/3e8c672602c10d337762a9b7e3a0feff.png",
@@ -100,6 +100,54 @@
     {
       "name": "jp/mildom/nnfans/307028afb26b32c71dd59ebf4b37322c.png",
       "emoji_id": 836074114497118249
+    },
+    {
+      "name": "jp/mildom/nnfans/97fb5d8b7950b08fcc418b974722de95.png",
+      "emoji_id": 851656857881411584
+    },
+    {
+      "name": "jp/mildom/nnfans/2ddfbba6c27fe219e0b30095e9fe5836.png",
+      "emoji_id": 851656860657909781
+    },
+    {
+      "name": "jp/mildom/nnfans/bfb02eeda01b25c5752bc8a42f833bfd.png",
+      "emoji_id": 851656862617305110
+    },
+    {
+      "name": "jp/mildom/nnfans/b7fc71b41b0442b09762ad3d274880c0.png",
+      "emoji_id": 851656865166131202
+    },
+    {
+      "name": "jp/mildom/nnfans/31d6e1efac760295255f59837860b600.png",
+      "emoji_id": 851656867314532392
+    },
+    {
+      "name": "jp/mildom/nnfans/556330a86b05ee0cf495574bd50977f9.png",
+      "emoji_id": 851656869133942834
+    },
+    {
+      "name": "jp/mildom/nnfans/94a00e76724ff6752803ec15832c8d48.png",
+      "emoji_id": 851656871642398821
+    },
+    {
+      "name": "jp/mildom/nnfans/7c46d9b0ee3913910a346ee682089e61.png",
+      "emoji_id": 851656873367437333
+    },
+    {
+      "name": "jp/mildom/nnfans/228c406f0e90a441f842cae3f7b18434.png",
+      "emoji_id": 851656875710742538
+    },
+    {
+      "name": "jp/mildom/nnfans/19c84ab6b8a8dbc41cfcf0703a0d32cc.png",
+      "emoji_id": 851656877963476993
+    },
+    {
+      "name": "jp/mildom/nnfans/b2075a592ac25b42da4e3dd4986626e5.png",
+      "emoji_id": 851656880635510804
+    },
+    {
+      "name": "jp/mildom/nnfans/5f73633f33010f5322d10d8c795c324f.png",
+      "emoji_id": 851656882846040064
     }
   ]
 }
